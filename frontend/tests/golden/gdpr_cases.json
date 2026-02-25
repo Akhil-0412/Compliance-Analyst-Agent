@@ -1,0 +1,30 @@
+[
+    {
+        "id": "gdpr-log-deletion",
+        "input": "The company deleted breach logs after discovering a GDPR data breach.",
+        "expected": {
+            "articles_present": [
+                "33"
+            ],
+            "articles_absent": [
+                "17"
+            ],
+            "min_risk": "Medium",
+            "decision": "REVIEW_REQUIRED"
+        }
+    },
+    {
+        "id": "gdpr-access-request",
+        "input": "The user requested access to their personal data.",
+        "expected": {
+            "articles_present": [
+                "15"
+            ],
+            "articles_absent": [
+                "83"
+            ],
+            "min_risk": "Low",
+            "decision": "AUTO_APPROVED"
+        }
+    }
+]

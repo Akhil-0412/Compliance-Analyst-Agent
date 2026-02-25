@@ -1,0 +1,10 @@
+node_modules/
+.next/
+.env
+backend/.env
+frontend/.env
+__pycache__/
+.venv/
+diag_output.txt
+backend_debug.log
+checkpoints.db

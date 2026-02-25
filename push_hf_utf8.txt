@@ -1,0 +1,49 @@
+﻿git : remote: [31m-------------
+--------------------------------
+----------------------------[0m
+        
+At line:1 char:1
++ git push "https://Akhil-008:hf
+_TnYnIcMLCEsEPtvozyTIphNHivsBxir
+yyX@hug ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo          : N 
+   otSpecified: (remote: [31m  
+  --...---[0m        :String   
+ ) [], RemoteException
+    + FullyQualifiedErrorId : N 
+   ativeCommandError
+ 
+remote: [31mYour push was 
+rejected because it contains 
+files larger than 10 MiB.[0m   
+     
+remote: [31mPlease use 
+https://git-lfs.github.com/ to 
+store large files.[0m        
+remote: [31mSee also: https://h
+f.co/docs/hub/repositories-getti
+ng-started#terminal[0m        
+remote: [31m[0m        
+remote: [31mOffending 
+files:[0m        
+remote: [31m  - checkpoints.db 
+(ref: refs/heads/main)[0m      
+  
+remote: [31m-------------------
+--------------------------------
+----------------------[0m      
+  
+To https://huggingface.co/spaces
+/Akhil-008/Compliance_Analyst_Ag
+ent_Backend
+ ! [remote rejected] 8c1af9d7e0d
+7c511e235bbc6a3b5866c4a4632ee 
+-> main (pre-receive hook 
+declined)
+error: failed to push some refs 
+to 'https://huggingface.co/space
+s/Akhil-008/Compliance_Analyst_A
+gent_Backend'

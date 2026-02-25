@@ -1,0 +1,7 @@
+primary:
+  name: groq
+  model: llama-3.3-70b-versatile
+
+fallback:
+  name: openrouter
+  model: gemini-1.5-pro
