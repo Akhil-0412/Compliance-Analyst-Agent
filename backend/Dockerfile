@@ -17,8 +17,8 @@ RUN pip install --no-cache-dir --upgrade -r requirements.txt
 # Copy the entire backend directory into the container
 COPY --chown=user . .
 
-# Expose the standard FastAPI port
-EXPOSE 8000
+# Expose the standard Hugging Face Space port
+EXPOSE 7860
 
-# Run the uvicorn server binding to 0.0.0.0 and port 8000
-CMD ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the uvicorn server binding to 0.0.0.0 and port 7860
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "7860"]
