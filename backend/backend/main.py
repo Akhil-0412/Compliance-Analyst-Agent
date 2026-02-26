@@ -126,6 +126,7 @@ async def chat_endpoint(req: ChatRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.post("/chat/stream")
 @app.post("/api/chat/stream")
 async def stream_chat_endpoint(req: ChatRequest):
     """
@@ -157,6 +158,7 @@ class FollowupRequest(BaseModel):
     custom_text: str = ""
 
 
+@app.post("/chat/followup")
 @app.post("/api/chat/followup")
 async def followup_endpoint(req: FollowupRequest):
     """
